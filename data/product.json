@@ -1,0 +1,10 @@
+{
+  "productId": 1,
+  "price": 12.50,
+  "tags": [ "cold", "ice" ],
+  "dimensions": {
+    "length": 7.0,
+    "width": 12.0,
+    "height": 9.5
+  }
+}

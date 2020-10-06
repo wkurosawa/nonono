@@ -1,0 +1,19 @@
+{
+  "name": "nonono",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hooks:pre-commit": "node ./hooks/pre-commit.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "hooks:pre-commit"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hyperjump/json-schema": "^0.13.0"
+  }
+}
